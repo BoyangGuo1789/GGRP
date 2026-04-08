@@ -1,0 +1,33 @@
+# Python cache and packaging
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment and tooling
+.env
+.env.*
+.DS_Store
+
+# Training artifacts
+output/
+output_log/
+accuracy_csv/
+clip/accuracy_csv/
+*.log
+events.out.tfevents*
+wandb/
+
+# Keep local experiment scripts private for now
+scripts/ggrp/
+
+# Checkpoints and model artifacts
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
